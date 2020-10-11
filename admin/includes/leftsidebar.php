@@ -7,11 +7,11 @@
         <li class="menu-title">Navigation</li>
 
         <li class="has_sub">
-          <a href="dashboard.php" class="waves-effect"><i class="mdi mdi-view-dashboard"></i> <span> Dashboard </span>
+          <a href="dashboard.php" class="waves-effect"><i class="fas fa-cubes"></i> <span> Dashboard </span>
           </a>
         </li>
         <li class="has_sub">
-          <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted"></i> <span>
+          <a href="javascript:void(0);" class="waves-effect"><i class="fas fa-box"></i> <span>
               Category </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><a href="add-category.php">Add Category</a></li>
@@ -20,7 +20,7 @@
         </li>
 
         <li class="has_sub">
-          <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted"></i> <span>Sub
+          <a href="javascript:void(0);" class="waves-effect"><i class="fas fa-inbox"></i> <span>Sub
               Category </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><a href="add-subcategory.php">Add Sub Category</a></li>
@@ -28,7 +28,7 @@
           </ul>
         </li>
         <li class="has_sub">
-          <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted"></i> <span> Posts
+          <a href="javascript:void(0);" class="waves-effect"><i class="fas fa-edit"></i> <span> Posts
             </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><a href="add-post.php">Add Posts</a></li>
@@ -38,7 +38,7 @@
         </li>
 
         <li class="has_sub">
-          <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted"></i> <span> Pages
+          <a href="javascript:void(0);" class="waves-effect"><i class="fas fa-pager"></i> <span> Pages
             </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><a href="aboutus.php">About us</a></li>
@@ -46,7 +46,7 @@
           </ul>
         </li>
         <li class="has_sub">
-          <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted"></i> <span>
+          <a href="javascript:void(0);" class="waves-effect"><i class="fas fa-comments"></i> <span>
               Comments </span> <span class="menu-arrow"></span></a>
           <ul class="list-unstyled">
             <li><a href="unapprove-comment.php">Waiting for Approval </a></li>

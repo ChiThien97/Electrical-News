@@ -29,7 +29,6 @@ else{
             <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
             <link rel="stylesheet" href="../plugins/switchery/switchery.min.css">
             <script src="assets/js/modernizr.min.js"></script>
-
         </head>
 
 
