@@ -14,13 +14,13 @@
     while($row=mysqli_fetch_array($query))
     {
     ?>
-      <li class="pl-3">
-        <a href="category.php?catid=<?php echo htmlentities($row['id'])?>"><?php echo htmlentities($row['CategoryName']);?></a>
+      <li class="nav-item">
+        <a class="nav-link" href="category.php?catid=<?php echo htmlentities($row['id'])?>"><?php echo htmlentities($row['CategoryName']);?></a>
       </li>
-<?php } ?>
+    <?php } ?>
     </ul>
        
-      <ul class="navbar-nav ml-auto">
+      <!-- <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="about-us.php">About</a>
         </li>
@@ -30,7 +30,7 @@
         <li class="nav-item">
           <a class="nav-link" href="contact-us.php">Contact us</a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </nav>
