@@ -59,7 +59,6 @@
 
     </head>
 
-
     <body class="bg-transparent">
 
         <!-- HOME -->
@@ -81,7 +80,6 @@
                                 </div>
                                 <div class="account-content">
                                     <form class="form-horizontal" method="post">
-
                                         <div class="form-group ">
                                             <div class="col-xs-12">
                                                 <input class="form-control" type="text" required="" name="username" placeholder="Username or email" autocomplete="off">
@@ -93,15 +91,11 @@
                                                 <input class="form-control" type="password" name="password" required="" placeholder="Password" autocomplete="off">
                                             </div>
                                         </div>
-
-
-                     
                                         <div class="form-group account-btn text-center m-t-10">
                                             <div class="col-xs-12">
                                                 <button class="btn w-md btn-bordered btn-danger waves-effect waves-light" type="submit" name="login">Log In</button>
                                             </div>
                                         </div>
-
                                     </form>
 
                                     <div class="clearfix"></div>
