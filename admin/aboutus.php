@@ -16,7 +16,7 @@ else{
         $query=mysqli_query($con,"update tblpages set PageTitle='$pagetitle',Description='$pagedetails' where PageName='$pagetype' ");
         if($query)
         {
-            $msg="About us  page successfully updated ALO ALO TEST TESTTEST";
+            $msg="About us  page successfully updated";
         }
         else
         {
