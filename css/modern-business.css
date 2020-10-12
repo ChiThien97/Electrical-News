@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
+html, body{
+  min-height: 100%;
+  height: 100%;
+}
+
 body {
   padding-top: 54px;
 }
@@ -12,6 +17,11 @@ body {
   body {
     padding-top: 56px;
   }
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
 }
 
 a:hover{

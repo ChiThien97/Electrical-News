@@ -1,6 +1,6 @@
 <div class="col-md-4">
   <!-- Search Widget -->
-  <div class="card mb-4">
+  <!-- <div class="card mb-4">
     <h5 class="card-header">Search</h5>
     <div class="card-body">
       <form name="search" action="search.php" method="post">
@@ -12,7 +12,7 @@
       </form>
     </div>
   </div>
-</div>
+  </div> -->
 
 <!--Widget Weather-->
 <a class="weatherwidget-io" href="https://forecast7.com/en/10d82106d63/ho-chi-minh-city/" data-label_1="HO CHI MINH" data-label_2="WEATHER" data-theme="original" >HO CHI MINH WEATHER</a>
@@ -50,11 +50,9 @@
       <?php
       $query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as posttitle from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId limit 8");
       while ($row=mysqli_fetch_array($query)) 
-      {
-      ?>
+      {?>
       <li>
-        <a
-          href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"><?php echo htmlentities($row['posttitle']);?></a>
+        <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"><?php echo htmlentities($row['posttitle']);?></a>
       </li>
       <?php } ?>
     </ul>

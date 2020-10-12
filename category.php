@@ -31,7 +31,7 @@ include('includes/config.php');
    <?php include('includes/header.php');?>
 
     <!-- Page Content -->
-    <div class="container">
+    <div id="wrap" class="container">
 
 
      
