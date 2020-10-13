@@ -10,12 +10,12 @@ html, body{
 }
 
 body {
-  padding-top: 54px;
+  padding-top: 30px;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 30px;
   }
 }
 #wrap {
@@ -40,4 +40,67 @@ a:hover{
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+
+/*-----Navbar-------*/
+.navbar{
+  padding: 0 1rem !important;
+}
+.bg-nav{
+  background-color: #eee;
+}
+.nav-link{
+  color: #444 !important;
+}
+.nav-link:hover{
+  color: #4aaebf !important;
+}
+
+.nav-item{
+  position: relative;
+}
+
+.navbar ul>li>a::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #4aaebf;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.navbar ul>li>a:hover::after, .navbar ul>li.active>a::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*-----Search------*/
+.btn-secondary {
+  color: #777 !important;
+  background-color: #fff !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0 .25rem .25rem 0 !important;
+  -webkit-border-radius: 0 .25rem .25rem 0 !important;
+  -moz-border-radius: 0 .25rem .25rem 0 !important;
+  -ms-border-radius: 0 .25rem .25rem 0 !important;
+  -o-border-radius: 0 .25rem .25rem 0 !important;
+}
+.btn-secondary:hover{
+  color: #fff !important;
+  background-color:  #4aaebf !important;
+}
+.form-control {
+  color: #495057 !important;
+  background-color: #fff !important;
+  border: 1px solid #ced4da !important;
+  border-radius: .25rem 0 0 .25rem !important;
+  -webkit-border-radius: .25rem 0 0 .25rem !important;
+  -moz-border-radius: .25rem 0 0 .25rem !important;
+  -ms-border-radius: .25rem 0 0 .25rem !important;
+  -o-border-radius: .25rem 0 0 .25rem !important;
 }
