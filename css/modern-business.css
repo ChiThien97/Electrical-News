@@ -106,7 +106,10 @@ a:hover{
 }
 
 /*---------Rating---------*/
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.card-footer{
+  display: flex !important;
+  align-items: center;
+}
 div,label{margin:0;padding:0;}
 body{margin:20px;}
 h1{font-size:1.5em;margin:10px;}

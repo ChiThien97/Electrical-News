@@ -1,3 +1,4 @@
+<div>Đánh giá bài viết: </div>
 <div id="rating">
     <input type="radio" id="star5" name="rating" value="5" />
     <label class = "full" for="star5" title="Awesome - 5 stars"></label>
@@ -23,17 +24,12 @@
     <input type="radio" id="star1half" name="rating" value="1 and a half" />
     <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
     
-    <input type="radio" id="star1" name="rating" value="1" />
+    <input onclick="calcRate();" type="radio" id="star1" name="rating" value="1" />
     <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
     
     <input type="radio" id="starhalf" name="rating" value="half" />
     <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
 </div>
-
-<script>
-    function calcRate(r) {
-        const f = ~~r,//Tương tự Math.floor(r)
-        id = 'star' + f + (r % f ? 'half' : '')
-        id && (document.getElementById(id).checked = !0)
-    }
-</script>
+<style>
+    @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+</style>
