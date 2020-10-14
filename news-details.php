@@ -87,7 +87,7 @@ if(isset($_POST['submit']))
              
             </div>
             <div class="card-footer text-muted">
-             
+            <?php include('includes/rating.html');?>
             </div>
           </div>
           <?php } ?>
@@ -100,7 +100,7 @@ if(isset($_POST['submit']))
       <!-- /.row -->
       <!---Comment Section --->
 
-      <div class="row" style="margin-top: -8%">
+      <div class="row" style="margin-top: -3%">
         <div class="col-md-8">
           <div class="card my-4">
             <h5 class="card-header">Leave a Comment:</h5>
